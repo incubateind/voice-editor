@@ -36,7 +36,7 @@ Make sure that you are executing this command from the `master` branch to avoid 
 $ git checkout -b BRANCH-NAME
 ```
 
-### Changes
+### Modify
 Then you can go ahead and make any changes you want.
 
 Use the following command to see the files you have modified.
@@ -88,7 +88,7 @@ $ git push origin BRANCH-NAME
 Now your changes are available online in your fork and you are now ready to create your pull request.
 
 ### Pull Request
-Go back to your fork available at https://github.com/GITHUB-USERNAME/voice-editor. You would now see that there is a navigation bar above the navigation bar containing `Clone or download` button on the right, which contains your branch name on the left and a button stating `Compare & pull request` on the right.
+Go back to your fork available at [https://github.com/GITHUB-USERNAME/voice-editor](). You would now see that there is a navigation bar above the navigation bar containing `Clone or download` button on the right, which contains your branch name on the left and a button stating `Compare & pull request` on the right.
 
 Click on the `Compare & pull request` button and you would be redirected to a page asking you to specify your pull request descriptions, heading, branch name, etc. Fill them and then click on `Create pull request`.
 
