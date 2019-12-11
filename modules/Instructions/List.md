@@ -15,8 +15,6 @@
 * change (replace) to the end of the line
 * change (replace) entire word
 * change (replace) to the end of the word
-* delete character and substitute text
-* delete line and substitute text (same as cc)
 * transpose two letters (delete and paste)
 * undo
 * redo
@@ -165,3 +163,31 @@
 * delete (cut) to the end of the line
 * delete (cut) to the end of the line
 * delete (cut) character
+
+# Deletion
+* delete character and substitute text
+* delete line and substitute text
+* Delete n lines to general buffer
+* Delete word to general buffer
+* Delete n words
+* Delete to end of sentence
+* Delete previous word
+* Delete to end of line
+* Delete character
+
+# Parameters
+* Show invisible characters
+* Don’t show invisible characters
+* Show line numbers
+* Don’t show line numbers
+* Indent after carriage return
+* Turn off autoindent
+* Show matching sets of parentheses as they are typed
+* Turn off showmatch
+* Display mode on last line of screen
+* Turn off showmode
+* Show values of all possible parameters
+
+# Recovering deletions
+* Put general buffer after cursor
+* Put general buffer before cursor
