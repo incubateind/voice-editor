@@ -1,2 +1,5 @@
 ### Place your code modules here
-4. Get all possible synonyms of any keyword.
+* Prepare a detailed plan of different key instructions that a user can give while typing a text.
+* Get all possible synonyms of any keyword.
+* Implement Undo functionality to undo the last instruction performed.
+* Implement Redo functionality.
