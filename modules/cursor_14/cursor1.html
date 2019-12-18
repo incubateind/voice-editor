@@ -1,0 +1,17 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('#enter').click(function () {
+	  $('#textarea').html($('#textarea').val()+'&#10');
+	  var data = $('textarea').val();
+	  $('textarea').focus().val('').val(data);
+	});
+});
+
+</script>
+
+<textarea id="textarea" rows=5 cols=50>
+sdfghjkl
+sdfghjklkjhgtrewsc
+</textarea>
+<button id="enter">Enter</button>

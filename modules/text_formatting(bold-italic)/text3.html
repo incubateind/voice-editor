@@ -1,0 +1,48 @@
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"> 
+</script>
+<!--
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+-->
+<script>
+$(document).ready(function() {
+$('#textarea').keyup(function() {
+  $('#textarea-show').html($(this).text());
+});
+
+$('#bold_btn').on('click', function() {
+  document.execCommand('bold');
+  var text = document.getElementById('textarea').innerHTML;
+  $('#textarea-show').html(text);
+});
+$('#italic_btn').on('click', function() {
+  document.execCommand('italic');
+  var text = document.getElementById('textarea').innerHTML;
+  $('#textarea-show').html(text);
+});
+});
+</script>
+
+<style>
+#textarea {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #555;
+  font-size: 14px;
+  height: 34px;
+  width: 450px;
+}
+#textarea-show {
+  font-size: 2rem;
+  color: #666;
+  height: 50px;
+  border: 1px solid #ccc;
+  width: 450px;
+}
+</style>
+
+<button id='bold_btn'>B</button>
+<button id='italic_btn'>I</button>
+<div id="textarea" contenteditable></div>
+
