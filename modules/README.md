@@ -3,3 +3,4 @@
 * Get all possible synonyms of any keyword.
 * Implement Undo functionality to undo the last instruction performed.
 * Implement Redo functionality.
+* Implement add Table functionality given the parameters.
