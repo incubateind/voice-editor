@@ -1,0 +1,73 @@
+<div class="incubate-editor">
+  <div class="incubate-controls">
+    <a href='#' data-role='bold'>B</a>
+    <a href='#' data-role='italic'>I</a>
+    <a href='#' data-role='underline'>U</a>
+    <a href='#' data-role='justifyleft'><i class="menu-left"></i></a>
+    <a href='#' data-role='justifycenter'><i class="menu-center"></i></a>
+    <a href='#' data-role='justifyright'><i class="menu-right"></i></a>
+      <input type="button" id="popoverExampleTwo" value="table"/>
+  </div>
+  <div class="incubate-content" contenteditable>
+    <b>Let's make a statement!</b>
+    <br>
+    <i>This is an italicised sentence.</i>
+    <br>
+    <u>Very important information.</u>
+  </div>
+
+      <div id="popoverExampleTwoHiddenContent" style="display: none">
+      
+      <form id="table_generator_form" action="http://www.impressivewebs.com/html-table-code-generator/index.html" method="get">
+
+<h1>HTML Table Code Generator 2.0</h1>
+
+	<div>
+	<label for="rows">Number of Rows:</label> <input type="text" id="rows" size="2" maxlength="2" class="txt">
+	</div>
+	
+	<div>
+	<label for="columns">Number of Columns:</label> <input type="text" id="columns" size="2" maxlength="2" class="txt">
+	</div>
+	
+	<div>
+	<label for="table_summary">Table Summary: (for screen readers)</label> <input type="text" id="table_summary" class="txt">
+	</div>
+	
+	<div>
+	<label for="table_caption">Table Caption: (optional)</label> <input type="text" id="table_caption" class="txt">
+	</div>
+	
+	<div>
+	<label for="table_class">CSS Class Name for Table: (optional)</label> <input type="text" id="table_class" class="txt">
+	</div>
+	
+	<div>
+	<label for="table_id">CSS ID for Table: (optional)</label> <input type="text" id="table_id" class="txt">
+	</div>
+
+	<div>
+	<label for="th_none">No &lt;th&gt;</label> <input type="radio" name="TH" id="th_none" value="th_none_selected" class="checkbox" checked="checked">
+	</div>
+	
+	<div>
+	<label for="th_row">First row as &lt;th&gt;</label> <input type="radio" name="TH" id="th_row" value="th_row_selected" class="checkbox"> 
+	</div>
+	
+	<div id="table_extras_holder">
+	<label for="table_extras">Include &lt;tbody&gt;, &lt;thead&gt;, &amp; &lt;tfoot&gt;	</label> <input type="checkbox" name="table_extras" id="table_extras" value="table_extras_selected"> 
+	</div>
+
+	<div>
+	<label for="th_column">First column as &lt;th&gt;</label> <input type="radio" name="TH" id="th_column" value="th_column_selected" class="checkbox">
+	</div>
+	
+	<div id="button_cells_holder"><input type="button" id="button_cells" value="Prepare Cells for Data Insertion"></div>
+	
+	<div id="cells_holder"></div><!-- cells holder ends -->
+
+	<div id="button_generate_holder"><input type="button" id="button_generate" value="Generate Table Code"></div>
+	
+	<div id="code_result"><textarea rows="25" cols="70" id="code_result_text"></textarea></div>
+</form>
+        </div>
